@@ -1,0 +1,73 @@
+/*this a comment*/
+/* use cmd/ctrl + ? to create a comment*/
+/* the astrid * below selects the entire webpage. you can also target the body element as a selector*/
+* {
+    background-color:burlywood ;
+}
+h1 {
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/*below is the unique class for the second paragraph was used as a selector to style the paragraph differently from the first paragraph */
+.para2{
+    color: #000;
+}
+
+a{
+    color: cadetblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul{
+    list-style-type: none;
+    color:rgb(12, 56, 136)
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 70px;
+    margin: 20px 50px 50px 50px;
+    border: 10px solid rgb(0, 0, 0);
+}
+.box1{
+    background-color: rgb(52, 52, 155);
+    color: antiquewhite;
+}
+.box2{
+    background-color: rgb(42, 42, 73);
+    color: aliceblue;
+}
+
+
+/*daily challenge!!!*/
+
+.container{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding: 30px;
+    color: #fff;
+    /*added display:inline-block; below to display divs horizontally. */
+    display: inline-block;
+    border: 10px solid rgb(0, 0, 0);
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: purple;
+}
+.box4{
+    background-color: violet;
+}
